@@ -2,7 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'app_colors.dart';
+import 'app_size.dart';
 
+// 按钮投影
 const List<BoxShadow> kBtnShadow = [
   BoxShadow(
     color: kBtnShadowColor,
@@ -10,33 +12,33 @@ const List<BoxShadow> kBtnShadow = [
     blurRadius: 20,
   )
 ];
-// 按钮圆角半径
-const Radius kBtnRadius = Radius.circular(24);
+
 // 按钮文字样式
 const TextStyle kBtnTextStyle = TextStyle(
   color: kBtnColorStart,
-  fontSize: 18,
-  fontWeight: FontWeight.w500,
+  fontSize: kBtnTextSize,
+  fontWeight: kMediumFontWeight,
 );
 
 // 标题文字样式
 const TextStyle kTitleTextStyle = TextStyle(
-  fontSize: 24,
+  fontSize: kTitleTextSize,
   color: kTextColor,
-  fontWeight: FontWeight.w500,
+  fontWeight: kMediumFontWeight,
 );
 
-// 标题文字样式
-const TextStyle kSubTitleTextStyle = TextStyle(
-  fontSize: 14,
+// 内容文字样式
+const TextStyle kBodyTextStyle = TextStyle(
+  fontSize: kBodyTextSize,
   color: kTextColor,
-  fontWeight: FontWeight.w300,
+  fontWeight: kLightFontWeight,
 );
+
 // 输入框边框
 OutlineInputBorder kInputBorder = OutlineInputBorder(
   borderRadius: BorderRadius.circular(5),
   borderSide: BorderSide(
-    color: Color(0xFFECECEC),
+    color: kInputBorderColor,
     width: 1,
   ),
 );

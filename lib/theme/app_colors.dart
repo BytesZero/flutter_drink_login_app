@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/widgets.dart';
 
 // 背景颜色
@@ -12,6 +10,8 @@ const Color kBtnColorStart = Color(0xFFF89500);
 const Color kBtnColorEnd = Color(0xFFFA6B74);
 // 按钮投影颜色
 const Color kBtnShadowColor = Color(0x33D83131);
+// 输入框边框颜色
+const Color kInputBorderColor = Color(0xFFECECEC);
 
 // 按钮渐变背景色
 const LinearGradient kBtnLinearGradient = LinearGradient(
@@ -20,6 +20,3 @@ const LinearGradient kBtnLinearGradient = LinearGradient(
     kBtnColorEnd,
   ],
 );
-
-
-

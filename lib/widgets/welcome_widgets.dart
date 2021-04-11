@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_drink_login_app/theme/app_colors.dart';
+import 'package:flutter_drink_login_app/theme/app_size.dart';
 import 'package:flutter_drink_login_app/theme/app_style.dart';
 
 // 登录方式图标
@@ -51,7 +52,8 @@ class LoginBtnWidget extends StatelessWidget {
       width: 208,
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.all(kBtnRadius),
+        borderRadius: BorderRadius.circular(kBtnRadius),
+        boxShadow: kBtnShadow,
       ),
       alignment: Alignment.center,
       child: Text(
@@ -85,7 +87,7 @@ class GradientBtnWidget extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: kBtnLinearGradient,
             boxShadow: kBtnShadow,
-            borderRadius: BorderRadius.all(kBtnRadius),
+            borderRadius: BorderRadius.circular(kBtnRadius),
           ),
           alignment: Alignment.center,
           child: child,
@@ -116,8 +118,8 @@ class BtnTextWhiteWidget extends StatelessWidget {
 }
 
 /// 头部内容
-class LoginHeaderWidget extends StatelessWidget {
-  const LoginHeaderWidget({
+class WelcomeHeaderWidget extends StatelessWidget {
+  const WelcomeHeaderWidget({
     Key key,
   }) : super(key: key);
 
@@ -141,7 +143,7 @@ class LoginHeaderWidget extends StatelessWidget {
               SizedBox(height: 8),
               Text(
                 'Best drink\nreceipes',
-                style: kSubTitleTextStyle,
+                style: kBodyTextStyle,
               ),
             ],
           ),
