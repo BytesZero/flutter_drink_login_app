@@ -24,6 +24,7 @@ class _LoginPageState extends State<LoginPage> {
           Image.asset(
             'assets/images/bg_login_header.png',
             width: double.maxFinite,
+            fit: BoxFit.fitWidth,
           ),
           SingleChildScrollView(
             child: Column(
@@ -89,6 +90,7 @@ class LoginBodyWidget extends StatelessWidget {
           ),
           SizedBox(height: 32),
           LoginBtnIconWidget(),
+          SizedBox(height: 32),
           SizedBox(height: MediaQuery.of(context).padding.bottom),
         ],
       ),
