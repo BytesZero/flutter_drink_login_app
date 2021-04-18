@@ -12,33 +12,3 @@ const List<BoxShadow> kBtnShadow = [
     blurRadius: 20,
   )
 ];
-
-// 按钮文字样式
-const TextStyle kBtnTextStyle = TextStyle(
-  color: kBtnColorStart,
-  fontSize: kBtnTextSize,
-  fontWeight: kMediumFontWeight,
-);
-
-// 标题文字样式
-const TextStyle kTitleTextStyle = TextStyle(
-  fontSize: kTitleTextSize,
-  color: kTextColor,
-  fontWeight: kMediumFontWeight,
-);
-
-// 内容文字样式
-const TextStyle kBodyTextStyle = TextStyle(
-  fontSize: kBodyTextSize,
-  color: kTextColor,
-  fontWeight: kLightFontWeight,
-);
-
-// 输入框边框
-OutlineInputBorder kInputBorder = OutlineInputBorder(
-  borderRadius: BorderRadius.circular(5),
-  borderSide: BorderSide(
-    color: kInputBorderColor,
-    width: 1,
-  ),
-);
