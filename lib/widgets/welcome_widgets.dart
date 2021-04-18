@@ -162,8 +162,8 @@ class AppIconWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 56,
-      height: 56,
+      width: kIconBoxSize,
+      height: kIconBoxSize,
       decoration: BoxDecoration(
         color: Colors.white,
         shape: BoxShape.circle,

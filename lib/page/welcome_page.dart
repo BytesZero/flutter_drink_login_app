@@ -18,17 +18,14 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        color: kBgColor,
-        alignment: Alignment.topCenter,
-        child: Column(
-          children: [
-            WelcomeHeaderWidget(),
-            Expanded(
-              child: WelcomeFooterWidget(),
-            ),
-          ],
-        ),
+      backgroundColor: kBgColor,
+      body: Column(
+        children: [
+          WelcomeHeaderWidget(),
+          Expanded(
+            child: WelcomeFooterWidget(),
+          ),
+        ],
       ),
     );
   }

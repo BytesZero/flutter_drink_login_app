@@ -17,10 +17,6 @@ class _LoginPageState extends State<LoginPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          SizedBox(
-            width: double.maxFinite,
-            height: double.maxFinite,
-          ),
           Image.asset(
             'assets/images/bg_login_header.png',
             width: double.maxFinite,
@@ -29,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
           SingleChildScrollView(
             child: Column(
               children: [
-                SizedBox(height: 360),
+                SizedBox(height: 320),
                 ClipPath(
                   clipper: LoginCliper(),
                   child: LoginBodyWidget(),

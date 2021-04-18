@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_drink_login_app/theme/app_size.dart';
 import 'package:flutter_drink_login_app/theme/app_style.dart';
 import 'package:flutter_drink_login_app/widgets/welcome_widgets.dart';
 
@@ -67,8 +68,8 @@ class LoginBtnIconWidget extends StatelessWidget {
               Spacer(),
               Image.asset(
                 'assets/icons/icon_arrow_right.png',
-                width: 24,
-                height: 24,
+                width: kIconSize,
+                height: kIconSize,
               ),
               SizedBox(width: 24),
             ],
@@ -89,27 +90,30 @@ class LoginInput extends StatelessWidget {
     Key key,
     this.hintText,
     this.prefixIcon,
+    this.obscureText = false,
   }) : super(key: key);
 
   final String hintText;
   final String prefixIcon;
+  final bool obscureText;
 
   @override
   Widget build(BuildContext context) {
     return TextField(
+      obscureText: obscureText,
       decoration: InputDecoration(
         hintText: hintText,
         border: kInputBorder,
         focusedBorder: kInputBorder,
         enabledBorder: kInputBorder,
         prefixIcon: Container(
-          width: 56,
-          height: 56,
+          width: kIconBoxSize,
+          height: kIconBoxSize,
           alignment: Alignment.center,
           child: Image.asset(
             prefixIcon,
-            width: 24,
-            height: 24,
+            width: kIconSize,
+            height: kIconSize,
           ),
         ),
       ),
