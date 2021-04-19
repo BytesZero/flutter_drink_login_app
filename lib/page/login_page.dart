@@ -1,11 +1,6 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_drink_login_app/theme/app_colors.dart';
-import 'package:flutter_drink_login_app/theme/app_size.dart';
 import 'package:flutter_drink_login_app/theme/app_style.dart';
 import 'package:flutter_drink_login_app/widgets/login_widget.dart';
-import 'package:flutter_drink_login_app/widgets/welcome_widget.dart';
 
 /// 登录页面
 class LoginPage extends StatefulWidget {

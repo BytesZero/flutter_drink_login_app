@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_drink_login_app/page/login_page.dart';
 import 'package:flutter_drink_login_app/theme/app_colors.dart';
-import 'package:flutter_drink_login_app/theme/app_size.dart';
-import 'package:flutter_drink_login_app/theme/app_style.dart';
 import 'package:flutter_drink_login_app/widgets/welcome_widget.dart';
 
 // 欢迎页面
