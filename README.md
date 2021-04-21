@@ -1,4 +1,4 @@
-# 🥤饮料食谱App
+# 🥤饮料食谱 App - 登录 UI - Speed Code
 
 ![](images/img_1.png)
 
@@ -24,6 +24,7 @@
 
 ### 🎥 视频地址 🎥
 
+- [BiliBili](https://www.youtube.com/channel/UCBZqDGI6DwI0njwnMuq8yog)
 - [YouTube](https://www.youtube.com/channel/UCBZqDGI6DwI0njwnMuq8yog)
 
 ### 📒 对应文章 📒
@@ -38,7 +39,7 @@
 
 > 一切推荐旨在学习，请勿用于非法用途
 
-### ☀️ 我的经历 ☀️
+### ☀️ 关于我 ☀️
 
 - 15 年～18 年，使用 `Android` 原生做智能硬件相关的  App 研发
 - 18 年 5 月，一次偶然的机会接触到了 `Flutter` ，然后开始自学，可以看 [weather_flutter](https://github.com/yy1300326388/weather_flutter) 是我练习 Flutter 的入门实战项目（我现在依然觉得他非常适合 Flutter 入门练习使用）
