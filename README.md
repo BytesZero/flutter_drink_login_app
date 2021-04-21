@@ -5,7 +5,7 @@
 
 这是我的第 2 个 Speed Code 视频，通过此视频你可以学习到如下 `Widget` 的基础或高级用法，更重要的你可以学习到如何将这些 `Widget` 灵活的组合最终实现上面👆的效果。
 
-- Contaner
+- Container
 - Text
 - Image
 - Column
