@@ -4,23 +4,24 @@
 
 ### 📖 项目介绍 📖
 
-这是我的第 2 个 Speed Code 视频，通过此项目视频你可以学习到如下 `Widget` 的基础或进阶用法，更重要的你可以学习到如何将这些 `Widget` 灵活的组合最终实现上面👆的效果。如果觉得有用可以点个 `Star` ，我会更加有动力去录制，谢谢你给我的 Star 🙏 
+这是我的第 2 个 Speed Code 视频，通过此项目视频你可以学习到如下 `Widget` 的基础或进阶用法，更重要的你可以学习到如何将这些 `Widget` 灵活的组合最终实现上面👆的效果。如果觉得有用可以点个 `Star` ，我会更加有动力录制分享，谢谢你给我的 Star 🙏 
 
-- Container
-- Text
-- Image
-- Column
-- Row
-- Stack
-- SizedBox
-- TextField
-- Padding
-- Spacer
-- Positioned
-- GestureDetector
-- Divider
-- ClipPath
-
+- [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)
+- [Text](https://api.flutter.dev/flutter/widgets/Text-class.html)
+- [Image](https://api.flutter.dev/flutter/widgets/Image-class.html)
+- [Column](https://api.flutter.dev/flutter/widgets/Column-class.html)
+- [Row](https://api.flutter.dev/flutter/widgets/Row-class.html)
+- [Stack](https://api.flutter.dev/flutter/widgets/Stack-class.html)
+- [SizedBox](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
+- [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)
+- [Padding](https://api.flutter.dev/flutter/widgets/Padding-class.html)
+- [Spacer](https://api.flutter.dev/flutter/widgets/Spacer-class.html)
+- [Positioned](https://api.flutter.dev/flutter/widgets/Positioned-class.html)
+- [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
+- [Divider](https://api.flutter.dev/flutter/material/Divider-class.html)
+- [ClipPath](https://api.flutter.dev/flutter/widgets/ClipPath-class.html)
+- [Path](https://api.flutter.dev/flutter/dart-ui/Path-class.html)
+- [Bezier(贝塞尔曲线)](https://www.jasondavies.com/animated-bezier/)
 
 ### 🎥 视频地址 🎥
 
