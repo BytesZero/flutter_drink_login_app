@@ -22,6 +22,7 @@
 - [ClipPath](https://api.flutter.dev/flutter/widgets/ClipPath-class.html)
 - [Path](https://api.flutter.dev/flutter/dart-ui/Path-class.html)
 - [Bezier(贝塞尔曲线)](https://www.jasondavies.com/animated-bezier/)
+- [Widget 大全索引(快速查找学习)](https://flutter.dev/docs/reference/widgets)
 
 ### 🎥 视频地址 🎥
 
