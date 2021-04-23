@@ -29,10 +29,6 @@
 - [BiliBili](https://www.bilibili.com/video/BV1zK4y1o75R/)
 - [YouTube](https://youtu.be/cmdDvmr_1gA)
 
-### 📒 对应文章 📒
-
-- [语雀](https://www.yuque.com/docs/share/83e1400b-5a0d-4b78-a7a9-55609f42c2d3)
-
 ### 👍 推荐软件 👍
 
 - [加速访问 `GitHub` 和下载编译依赖的🪜](https://bit.ly/3fcL0ND)
