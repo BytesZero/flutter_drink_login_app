@@ -27,7 +27,10 @@
 ### 🎥 视频地址 🎥
 
 - [BiliBili](https://www.bilibili.com/video/BV1zK4y1o75R/)
-- [YouTube](https://youtu.be/cmdDvmr_1gA)
+
+### 📒 对应文章 📒
+
+- [掘金](https://juejin.cn/post/6954286149766479903)
 
 ### 👍 推荐软件 👍
 
