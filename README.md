@@ -26,8 +26,8 @@
 
 ### 🎥 视频地址 🎥
 
-- [BiliBili](https://www.youtube.com/channel/UCBZqDGI6DwI0njwnMuq8yog)
-- [YouTube](https://www.youtube.com/channel/UCBZqDGI6DwI0njwnMuq8yog)
+- [BiliBili](https://www.bilibili.com/video/BV1zK4y1o75R/)
+- [YouTube](https://youtu.be/cmdDvmr_1gA)
 
 ### 📒 对应文章 📒
 
