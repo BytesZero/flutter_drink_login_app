@@ -118,6 +118,7 @@ class LoginInput extends StatelessWidget {
           ),
         ),
       ),
+      obscuringCharacter: '*',
       obscureText: obscureText,
       style: kBodyTextStyle.copyWith(
         fontSize: 18,

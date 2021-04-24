@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_drink_login_app/theme/app_colors.dart';
 import 'package:flutter_drink_login_app/theme/app_size.dart';
 import 'package:flutter_drink_login_app/theme/app_style.dart';
+import '../extension/app_size_extension.dart';
 
 /// 登录方式图标
 class LoginTypeIconWidget extends StatelessWidget {
@@ -125,10 +126,15 @@ class WelcomeHeaderWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Image.asset('assets/images/bg_welcome_header.png'),
+        Image.asset(
+          'assets/images/bg_welcome_header.png',
+          width: 375,
+          height: 542,
+          fit: BoxFit.fitWidth,
+        ),
         Positioned(
-          top: 194,
-          left: 40,
+          top: 194.spH(),
+          left: 40.spW(),
           child: Column(
             children: [
               AppIconWidget(),

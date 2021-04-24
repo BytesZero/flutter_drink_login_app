@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_drink_login_app/theme/app_style.dart';
 import 'package:flutter_drink_login_app/widgets/login_widget.dart';
+import '../extension/app_size_extension.dart';
 
 /// 登录页面
 class LoginPage extends StatefulWidget {
@@ -16,15 +17,26 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Stack(
+        fit: StackFit.expand,
         children: [
-          Image.asset('assets/images/bg_login_header.png'),
+          Positioned(
+            top: 0,
+            left: 0,
+            child: Image.asset(
+              'assets/images/bg_login_header.png',
+              width: 375,
+              height: 476,
+              fit: BoxFit.fitWidth,
+            ),
+          ),
           Column(
             children: [
-              SizedBox(height: 320),
+              Spacer(),
               ClipPath(
                 clipper: LoginClipper(),
                 child: LoginBodyWidget(),
               ),
+              SizedBox(height: MediaQuery.of(context).padding.bottom)
             ],
           ),
           Positioned(
@@ -49,39 +61,39 @@ class LoginBodyWidget extends StatelessWidget {
     return Container(
       color: Colors.white,
       width: double.maxFinite,
-      padding: EdgeInsets.all(32),
+      padding: EdgeInsets.symmetric(horizontal: 32.spW()),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 86),
+          SizedBox(height: 86.spH()),
           Text(
             'Login',
             style: kTitleTextStyle,
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 20.spH()),
           Text(
             'Your Email',
             style: kBodyTextStyle,
           ),
-          SizedBox(height: 4),
+          SizedBox(height: 4.spH()),
           LoginInput(
             hintText: 'Email',
             prefixIcon: 'assets/icons/icon_email.png',
           ),
-          SizedBox(height: 16),
+          SizedBox(height: 16.spH()),
           Text(
             'Your Password',
             style: kBodyTextStyle,
           ),
-          SizedBox(height: 4),
+          SizedBox(height: 4.spH()),
           LoginInput(
             hintText: 'Password',
             prefixIcon: 'assets/icons/icon_pwd.png',
             obscureText: true,
           ),
-          SizedBox(height: 32),
+          SizedBox(height: 32.spH()),
           LoginBtnIconWidget(),
-          SizedBox(height: 32),
+          SizedBox(height: 32.spH()),
         ],
       ),
     );
