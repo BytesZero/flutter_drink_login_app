@@ -8,7 +8,7 @@
 
 - 1、视频 5s 小屏幕
 - 2、增加屏幕适配扩展类
-- 3、优化适配键盘弹起
+- 3、[优化适配键盘弹起](https://github.com/yy1300326388/flutter_drink_login_app/commit/9927cd23284b0e9f091f4b28a0b9ca87196ea829#r49939108)
 - 4、[更改密码遮挡字符为 `*` ](https://github.com/yy1300326388/flutter_drink_login_app/commit/9927cd23284b0e9f091f4b28a0b9ca87196ea829#r49938963)
 
 
