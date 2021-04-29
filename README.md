@@ -28,10 +28,6 @@
 
 - [BiliBili](https://www.bilibili.com/video/BV1zK4y1o75R/)
 
-> 今晚我在 CSDN 直播，可以来直播间聊聊
-![image](https://user-images.githubusercontent.com/8764899/115978596-154c8f00-a5b3-11eb-81d7-83b503d79078.png)
-
-
 ### 📒 对应文章 📒
 
 - [掘金](https://juejin.cn/post/6954286149766479903)
